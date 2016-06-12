@@ -1,6 +1,6 @@
 import urllib, CstringIO
 
-img = Image.open(urlopen(url))
+img = Image.open(urlopen('http://imgur.com/a/GuZlU'))
 
 pict = Image(file)
 
